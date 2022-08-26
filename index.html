@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+<body>
+
+    <!--Aqui começa o Header-->
+
+    <header class="max-width bg" id="Home">
+            <div class="container">
+                <nav class="menu">
+                    <div class="logo"></div>
+                    <div class="desktop-menu">
+                        <ul>
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">Novidades</a></li>
+                            <li><a href="#Service">Destaque</a></li>
+                            <li><a href="#Contact">Contato</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="mobile-menu" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                        <ul id="myLinks">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">Novidades</a></li>
+                            <li><a href="#Service">Destaque</a></li>
+                            <li><a href="#Contact">Contato</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="call">
+                    <div class="left">
+                        <h1 class="color-azul text-gd">Novas Coleções</h1>
+                        <p class="color-azul text-pq">Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <button>Compre Agora</button>
+                    </div>
+                    <div class="right">
+                        <div class="imagem">
+                            <img src="image/r9.png" alt="">
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <button id="back-to-top">^</button>
+    </header>
+
+    <!--Aqui Termina o Header-->
+
+    <!--Aqui começa o About-->
+
+    <section class="max-width bg2" id="About">
+        <div class="container">
+            <div class="titulo">
+                <h2 class="text-md color-cinza-1">Novidades</h2>
+                <div class="line">
+                    <div class="text-titulo">Roupas</div>
+                </div>
+            </div>
+            <div class="down">
+                <div class="box">
+                    <img src="image/b1.png" alt="">
+                    <div class="text">
+                        <h2 class="color-branco">Conjunto</h2>
+                        <p class="color-branco">Coleção de Inverno</p>
+                        <i class="fa fa-long-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/b2.png" alt="">
+                    <div class="text">
+                        <h2 class="color-branco">Conjunto</h2>
+                        <p class="color-branco">Coleção de Inverno</p>
+                        <i class="fa fa-long-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/b3.png" alt="">
+                    <div class="text">
+                        <h2 class="color-branco">Conjunto</h2>
+                        <p class="color-branco">Coleção de Inverno</p>
+                        <i class="fa fa-long-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Aqui Termina o About-->
+
+    <!--Aqui começa o Service-->
+
+    <section class="max-width bg" id="Service">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <h2 class="text-md color-cinza-1">Destaque</h2>
+                    <div class="line">
+                        <div class="text-titulo">Promoções</div>
+                    </div>
+                </div>
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+                    <div class="cards">
+                        <label class="card" for="item-1" id="song-1">
+                            <img src="image/p1.jpg" alt="">
+                            <button>Comprar Agora</button>
+                        </label>
+
+                        <label class="card" for="item-2" id="song-2">
+                            <img src="image/p2.jpg">
+                            <button>Comprar Agora</button>
+                        </label>
+
+                        <label class="card" for="item-3" id="song-3">
+                            <img src="image/p3.jpg">
+                            <button>Comprar Agora</button>
+                        </label>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Aqui Terminal o Service-->
+
+    <!--Aqui Começa o Contact-->
+
+    <section class="max-width bg2" id="Contact">
+        <div class="container">
+            <div class="titulo">
+                <h2 class="text-md color-cinza-1">Contato</h2>
+                <div class="line">
+                    <div class="text-titulo">Fale Conosco</div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="left">
+                    <div class="box">
+                        <h1>Nosso Newsletter</h1>
+                        <form action="">
+                            <input type="text" placeholder="Nome Completo">
+                            <input type="email" placeholder="Seu E-mail">
+                            <input type="submit" value="Inscreva-se">
+                        </form>
+                        <h1>Siga-nos</h1>
+                        <div class="social">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="box">
+                        <h1>Nosso Endereço</h1>
+                        <div class="info">
+                            <div class="icons">
+                                <i class="fa-solid fa-envelope"></i>
+                                <i class="fa-solid fa-phone"></i>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="text">
+                                <p>info@front.com</p>
+                                <p>+55 99 5555-5555</p>
+                                <p>Angra,Brazil</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Aqui Termina o Contact-->
+
+    <!--Aqui Começa o footer-->
+
+    <footer>
+        <div class="container">
+            <img src="image/logo-roupa.png" alt="">
+            <p class="text-pq">Copyright © 2022 <span class="color-laranja">FRONT</span> All Rights Reserved</p>
+            <p class="text-pq">Tel: 5898-5874</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+
+        // Menu-Mobile
+
+       function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+}
+        // Scrollbar Personalizado
+
+            var btn = document.querySelector("#back-to-top");
+            btn.addEventListener("click", function() {
+                window.scrollTo(0, 0);
+            });
+    </script>
+</body>
+</html>
